@@ -1,0 +1,95 @@
+body {
+    /*background-image: linear-gradient(to bottom, #628e75, #1a4855);
+    background-position: center;
+    background-size: cover;
+    background-origin: content-box;
+    background-attachment: fixed;*/
+    background: url(/assets/bg.png);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    max-width: 1440px;
+    margin: auto;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 10%;
+    align-items: center;
+}
+
+.titulo {
+    font-family: 'Cinzel Decorative', cursive;
+    text-align: center;
+    margin-top: 120px;
+    font-size: 48px;
+    color: white;
+    text-shadow: 1px 1px black;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.informacoes {
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    gap: 36px;
+    padding: 48px;
+    background-color: rgba(0,0,0,0.8);
+    border-radius: 10px;
+}
+
+.sinopse {
+    font-family: 'Josefin sans';
+    font-size: 20px;
+    color: white;
+    font-weight: 300;
+    line-height: 1.5;
+    margin-bottom: 16px;
+
+}
+
+.sinopseBold {
+    font-family: 'Josefin sans';
+    font-size: 22px;
+    color: white;
+    font-weight: 600;
+    line-height: 1.5;
+}
+
+.esquerda a {
+    text-decoration: none;
+    color: white;
+}
+
+.esquerda button {
+    font-family: 'Josefin Sans';
+    font-weight: 700;
+    font-size: 20px;
+    padding: 12px 20px 8px;
+    border: 0 solid;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #484926;
+    color: white;
+    margin-top: 24px;
+}
+
+.esquerda button:hover {
+    background-color: #606148;
+}
+
+.direita img  {
+    width: 480px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 130px;
+    font-family: 'Josefin sans';
+    font-size: 20px;
+    color: white;
+    font-weight: 300;
+    line-height: 1.5;
+}
