@@ -1,15 +1,11 @@
 body {
-    /*background-image: linear-gradient(to bottom, #628e75, #1a4855);
-    background-position: center;
-    background-size: cover;
-    background-origin: content-box;
-    background-attachment: fixed;*/
     background: url(/assets/bg.png);
-    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: local;
     width: 100%;
-    max-width: 1440px;
     margin: auto;
+    max-height: 100vh;
 }
 
 .container {
@@ -22,7 +18,7 @@ body {
 .titulo {
     font-family: 'Cinzel Decorative', cursive;
     text-align: center;
-    margin-top: 120px;
+    margin-top: 5%;
     font-size: 48px;
     color: white;
     text-shadow: 1px 1px black;
@@ -66,7 +62,7 @@ body {
 .esquerda button {
     font-family: 'Josefin Sans';
     font-weight: 700;
-    font-size: 20px;
+    font-size: 16px;
     padding: 12px 20px 8px;
     border: 0 solid;
     border-radius: 4px;
@@ -85,11 +81,15 @@ body {
 }
 
 footer {
+    background-color: black;
     text-align: center;
-    margin-top: 130px;
+    padding: 16px 0;
     font-family: 'Josefin sans';
-    font-size: 20px;
+    font-size: 14px;
     color: white;
     font-weight: 300;
     line-height: 1.5;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
 }
