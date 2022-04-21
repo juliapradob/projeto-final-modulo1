@@ -58,11 +58,11 @@ function decisao4() {
     alert('Escolha um número: 1 ou 2');
     var escolha4 = prompt('1: Foge e volta para o conforto da sua casa \n2: Procura uma maneira de distrair o monstro e entra na caverna');
     while (true) {
-        if (escolha4 == 2) {
+        if (escolha4 == 1) {
             window.location = ("/personagens/bylim4-derrota.html");
             break;
         } 
-        else if (escolha4 == 1) {
+        else if (escolha4 == 2) {
             window.location = ("/personagens/bylim-vitoria.html");
             break;
         }
