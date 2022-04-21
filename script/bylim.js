@@ -21,11 +21,11 @@ function decisao2() {
     alert('Escolha um número: 1 ou 2');
     var escolha2 = prompt('1: Permanece no acampamento com a fogueira \n2: Sai em busca de alimento');
     while (true) {
-        if (escolha2 == 1) {
+        if (escolha2 == 2) {
             window.location = ("/personagens/bylim2-derrota.html");
             break;
         } 
-        else if (escolha2 == 2) {
+        else if (escolha2 == 1) {
             window.location = ("bylim3.html");
             break;
         }
