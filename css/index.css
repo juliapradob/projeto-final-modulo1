@@ -53,11 +53,6 @@ body {
     line-height: 1.5;
 }
 
-.esquerda a {
-    text-decoration: none;
-    color: white;
-}
-
 .esquerda button {
     font-family: 'Josefin Sans';
     font-weight: 700;
@@ -91,4 +86,13 @@ footer {
     width: 100%;
     position: absolute;
     bottom: 0;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover {
+    font-weight: bold;
 }

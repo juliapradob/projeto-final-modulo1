@@ -88,14 +88,14 @@ body {
     background-color: #606148;
 }
 
-.elfa {
+.hobbit {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
-.elfa p {
+.hobbit p {
     font-family: 'Josefin sans';
     font-size: 20px;
     color: white;
@@ -117,4 +117,13 @@ footer {
     width: 100%;
     position: absolute;
     bottom: 0;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover {
+    font-weight: bold;
 }

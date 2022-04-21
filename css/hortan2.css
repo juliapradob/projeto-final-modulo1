@@ -118,3 +118,12 @@ footer {
     position: absolute;
     bottom: 0;
 }
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover {
+    font-weight: bold;
+}
