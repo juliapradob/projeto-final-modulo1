@@ -63,6 +63,7 @@ body {
     background-color: rgba(0,0,0,0.8);
     border-radius: 10px;
     width: 50%;
+    margin-top: 3%;
 }
 
 .informacoes a {
