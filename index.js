@@ -1,3 +1,3 @@
 function escolherPersonagem() {
-    window.location = ("/escolhe.html");
+    window.location = ("./escolhe.html");
 }
