@@ -66,12 +66,6 @@ body {
     margin-top: 3%;
 }
 
-.informacoes a {
-    text-decoration: none;
-    color: white;
-    text-transform: uppercase;
-}
-
 .informacoes button {
     font-family: 'Josefin Sans';
     font-weight: 700;
@@ -83,6 +77,7 @@ body {
     background-color: #484926;
     color: white;
     margin-top: 24px;
+    text-transform: uppercase;
 }
 
 .informacoes button:hover {
