@@ -40,11 +40,11 @@ function decisao3() {
     alert('Escolha um número: 1 ou 2');
     var escolha3 = prompt('1: Um caminho livre e bem demarcado \n2: Um caminho escuro, com espinhos e sinuoso');
     while (true) {
-        if (escolha3 == 2) {
+        if (escolha3 == 1) {
             window.location = ("/personagens/bylim3-derrota.html");
             break;
         } 
-        else if (escolha3 == 1) {
+        else if (escolha3 == 2) {
             window.location = ("bylim4.html");
             break;
         }
