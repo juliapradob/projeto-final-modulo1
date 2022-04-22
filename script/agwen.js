@@ -18,7 +18,6 @@ function decisao1() {
 }
 
 function decisao2() {
-    alert('Escolha um número: 1 ou 2');
     var escolha2 = prompt('1: Segue pelas árvores, onde tem total domínio; \n2: Segue pelo rio, onde avista um barco');
     while (true) {
         if (escolha2 == 1) {
@@ -37,7 +36,6 @@ function decisao2() {
 }
 
 function decisao3() {
-    alert('Escolha um número: 1 ou 2');
     var escolha3 = prompt('1: Vai pelo lado esquerdo; \n2: Vai pelo lado direito');
     while (true) {
         if (escolha3 == 2) {
@@ -55,7 +53,6 @@ function decisao3() {
     }
 }
 function decisao4() {
-    alert('Escolha um número: 1 ou 2');
     var escolha4 = prompt('1: Decide desafiar o monstro usando seu arco e flecha; \n2: Decide esperar para ver se o monstro dorme');
     while (true) {
         if (escolha4 == 2) {

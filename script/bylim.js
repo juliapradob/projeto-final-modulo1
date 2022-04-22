@@ -18,7 +18,6 @@ function decisao1() {
 }
 
 function decisao2() {
-    alert('Escolha um número: 1 ou 2');
     var escolha2 = prompt('1: Permanece no acampamento com a fogueira \n2: Sai em busca de alimento');
     while (true) {
         if (escolha2 == 2) {
@@ -37,7 +36,6 @@ function decisao2() {
 }
 
 function decisao3() {
-    alert('Escolha um número: 1 ou 2');
     var escolha3 = prompt('1: Um caminho livre e bem demarcado \n2: Um caminho escuro, com espinhos e sinuoso');
     while (true) {
         if (escolha3 == 1) {
@@ -55,7 +53,6 @@ function decisao3() {
     }
 }
 function decisao4() {
-    alert('Escolha um número: 1 ou 2');
     var escolha4 = prompt('1: Foge e volta para o conforto da sua casa \n2: Procura uma maneira de distrair o monstro e entra na caverna');
     while (true) {
         if (escolha4 == 1) {

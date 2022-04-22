@@ -18,7 +18,6 @@ function decisao1() {
 }
 
 function decisao2() {
-    alert('Escolha um número: 1 ou 2');
     var escolha2 = prompt('1: Ajudar o amigo do hobbit \n2: Ignorar o empréstimo do álcool e seguir seu caminho');
     while (true) {
         if (escolha2 == 2) {
@@ -37,7 +36,6 @@ function decisao2() {
 }
 
 function decisao3() {
-    alert('Escolha um número: 1 ou 2');
     var escolha3 = prompt('1: Interpretar a dica do ferido hobbit como a necessidade de acender uma tocha \n2: Seguir seus instintos e encarar a caverna em sua forma natural');
     while (true) {
         if (escolha3 == 1) {
@@ -55,7 +53,6 @@ function decisao3() {
     }
 }
 function decisao4() {
-    alert('Escolha um número: 1 ou 2');
     var escolha4 = prompt('1: Tentar subir a corda \n2: Descer a ribanceira em direção ao clarão');
     while (true) {
         if (escolha4 == 2) {
