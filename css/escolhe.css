@@ -1,5 +1,5 @@
 body {
-    background: url(https://github.com/juliapradob/projeto-final-modulo1/blob/main/assets/bg.png?raw=true);
+    background: url(../assets/bg.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: local;
