@@ -3,11 +3,11 @@ function decisao1() {
     var escolha1 = prompt('1: Acha que os lacaios estavam mentindo; \n2: Como não tem nada para fazer, decide descobrir se é os rumores são verdadeiros');
     while (true) {
         if (escolha1 == 1) {
-            window.location = ("./personagens/agwen1-derrota.html");
+            window.location = ("../personagens/agwen1-derrota.html");
             break;
         } 
         else if (escolha1 == 2) {
-            window.location = ("./agwen2.html");
+            window.location = ("../personagens/agwen2.html");
             break;
         }
         else {
@@ -22,11 +22,11 @@ function decisao2() {
     var escolha2 = prompt('1: Segue pelas árvores, onde tem total domínio; \n2: Segue pelo rio, onde avista um barco');
     while (true) {
         if (escolha2 == 1) {
-            window.location = ("./personagens/agwen2-derrota.html");
+            window.location = ("../personagens/agwen2-derrota.html");
             break;
         } 
         else if (escolha2 == 2) {
-            window.location = ("./agwen3.html");
+            window.location = ("../personagens/agwen3.html");
             break;
         }
         else {
@@ -41,11 +41,11 @@ function decisao3() {
     var escolha3 = prompt('1: Vai pelo lado esquerdo; \n2: Vai pelo lado direito');
     while (true) {
         if (escolha3 == 2) {
-            window.location = ("./personagens/agwen3-derrota.html");
+            window.location = ("../personagens/agwen3-derrota.html");
             break;
         } 
         else if (escolha3 == 1) {
-            window.location = ("./agwen4.html");
+            window.location = ("../personagens/agwen4.html");
             break;
         }
         else {
@@ -59,11 +59,11 @@ function decisao4() {
     var escolha4 = prompt('1: Decide desafiar o monstro usando seu arco e flecha; \n2: Decide esperar para ver se o monstro dorme');
     while (true) {
         if (escolha4 == 2) {
-            window.location = ("./personagens/agwen4-derrota.html");
+            window.location = ("../personagens/agwen4-derrota.html");
             break;
         } 
         else if (escolha4 == 1) {
-            window.location = ("./personagens/agwen-vitoria.html");
+            window.location = ("../personagens/agwen-vitoria.html");
             break;
         }
         else {
@@ -74,7 +74,7 @@ function decisao4() {
 }
 
 function tentarNovamente() {
-    window.location = ('./bylim1.html')
+    window.location = ('../personagens/agwen1.html')
 }
 
 function jogarNovamente() {
