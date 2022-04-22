@@ -1,5 +1,5 @@
 body {
-    background: url(./assets/agwen1.jpg);
+    background: url(/assets/agwen2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: local;
@@ -18,7 +18,7 @@ body {
 
 .header a {
     text-decoration: none;
-    color: #D7A74D;
+    color: #1D3D2F;
     font-family: 'Josefin sans';
     font-size: 12px;
     text-transform: uppercase;
@@ -63,7 +63,7 @@ body {
     background-color: rgba(0,0,0,0.8);
     border-radius: 10px;
     width: 50%;
-    margin-top: 3%;
+    margin-top:3%;
 }
 
 .informacoes button {
