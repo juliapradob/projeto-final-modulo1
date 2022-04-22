@@ -7,5 +7,5 @@ function bylim(){
 }
 
 function hortan(){
-    window.location = ("../personagens/hortan1.html");
+    window.location = ("../../personagens/hortan1.html");
 }
