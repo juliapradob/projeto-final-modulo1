@@ -1,5 +1,5 @@
 function agwen(){
-    window.location = ("../personagens/agwen1.html");
+    window.location = ("./personagens/agwen1.html");
 }
 
 function bylim(){
