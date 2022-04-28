@@ -5,7 +5,7 @@ body {
     background-attachment: local;
     width: 100%;
     margin: auto;
-    max-height: 100vh;
+    height: 100vh;
 }
 
 .header {
@@ -111,7 +111,7 @@ footer {
     font-weight: 300;
     line-height: 1.5;
     width: 100%;
-    position: absolute;
+    position: fixed;
     bottom: 0;
 }
 
@@ -122,4 +122,98 @@ footer a {
 
 footer a:hover {
     font-weight: bold;
+}
+
+@media screen and (max-width: 1244px) {
+    .informacoes {
+        margin: 40px 0 80px 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 16px;
+    }
+    .titulo-personagem {
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width: 962px) {
+    .titulo {
+        margin-top: 6%;
+    }
+
+    .informacoes {
+        width: 80%;
+    }
+    .titulo-personagem {
+        font-size: 18px;
+    }
+    
+    footer {
+        padding: 8px 0;
+    }
+}
+
+@media screen and (max-width: 774px) {
+    .titulo {
+        margin-top: 7%;
+    }
+
+    .informacoes {
+        width: 100%;
+    }
+    .titulo-personagem {
+        font-size: 18px;
+    }
+    
+    footer {
+        padding: 8px 0;
+    }
+}
+
+@media screen and (max-width: 498px) {
+    .titulo {
+        margin-top: 10%;
+    }
+
+    .informacoes {
+        width: 100%;
+    }
+    .titulo-personagem {
+        font-size: 18px;
+    }
+    
+    .elfa p {
+        font-size: 16px;
+    }
+
+    footer {
+        padding: 8px 0;
+    }
+}
+
+@media screen and (max-width: 392px) {
+    .titulo {
+        font-size: 38px;
+        margin-top: 12%;
+    }
+
+    .informacoes {
+        width: 100%;
+    }
+    .titulo-personagem {
+        font-size: 18px;
+    }
+    
+    .elfa p {
+        font-size: 16px;
+    }
+
+    .elfa button {
+        font-size: 14px;
+    }
+    
+    footer {
+        padding: 8px 0;
+    }
 }

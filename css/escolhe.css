@@ -147,10 +147,6 @@ footer a:hover {
     .informacoes button {
         font-size: 14px;
     }
-    
-    footer {
-        padding: 8px 0;
-    }
 }
 
 @media screen and (max-width: 962px) {
