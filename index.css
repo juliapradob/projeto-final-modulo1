@@ -99,7 +99,7 @@ footer a:hover {
 
 @media screen and (max-width: 1244px) {
     body {
-        background: url(./assets/bg.png) no-repeat center center fixed;;
+        background: url(./assets/bg.png) no-repeat center center fixed;
         background-attachment: local;
         width: 100%;
         margin: auto;

@@ -111,7 +111,7 @@ footer {
     font-weight: 300;
     line-height: 1.5;
     width: 100%;
-    position: absolute;
+    position: fixed;
     bottom: 0;
 }
 
@@ -122,4 +122,109 @@ footer a {
 
 footer a:hover {
     font-weight: bold;
+}
+
+@media screen and (max-width: 1244px) {
+    body {
+        background: url(../assets/bg.png) no-repeat center center fixed;;
+        background-attachment: local;
+        width: 100%;
+        margin: auto;
+        height: auto;
+    }
+
+    .informacoes {
+        margin: 40px 0 80px 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 16px;
+    }
+    .titulo-personagem {
+        font-size: 16px;
+    }
+    
+    .informacoes button {
+        font-size: 14px;
+    }
+    
+    footer {
+        padding: 8px 0;
+    }
+}
+
+@media screen and (max-width: 962px) {
+    .titulo {
+        margin-top: 5%;
+    }
+
+    .informacoes {
+        margin: 40px 0 80px 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 16px;
+        width: 110%;
+    }
+    .titulo-personagem {
+        font-size: 18px;
+    }
+    
+    .informacoes button {
+        font-size: 14px;
+    }
+    
+    footer {
+        padding: 8px 0;
+    }
+}
+
+@media screen and (max-width: 774px) {
+    .titulo {
+        margin-top: 7%;
+    }
+
+    .informacoes {
+        width: 70%;
+        flex-direction: column;
+    }
+    .titulo-personagem {
+        font-size: 18px;
+    }
+    
+    .informacoes img {
+        display: none;
+    }
+
+    .informacoes button {
+        margin-top: 0;
+        font-size: 12px;
+    }
+    
+    footer {
+        padding: 8px 0;
+    }
+}
+
+@media screen and (max-width: 498px) {
+    .titulo {
+        margin-top: 8%;
+    }
+
+    footer {
+        font-size: 12px;
+        padding: 8px 0;
+    }
+}
+
+@media screen and (max-width: 392px) {
+    .titulo {
+        margin-top: 10%;
+        font-size: 32px;
+    }
+
+    footer {
+        padding-left: 8px;
+        padding-right: 8px;
+    }
 }
